@@ -4,8 +4,9 @@ app = Flask(__name__)
 
 from urllib.parse import urlparse, urlunparse
 
-FROM_DOMAIN = "yourusername.pythonanywhere.com"
+FROM_DOMAIN = "https://heikojan2010.github.io/linqdredirect/"
 TO_DOMAIN = "www.rmrtech.tech"
+
 
 @app.before_request
 def redirect_to_new_domain():
